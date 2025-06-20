@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>Geolix | 破而后立 · 无限进步</title>
+  <style>
+    body {
+      background: #f8fdf6;
+      font-family: "Helvetica Neue", "Arial", sans-serif;
+      color: #2e2e2e;
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 24px;
+      line-height: 1.8;
+    }
+    .avatar {
+      width: 140px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      font-size: 26px;
+      color: #4caf50;
+    }
+    p {
+      text-align: center;
+      color: #555;
+    }
+    .section {
+      margin-top: 40px;
+    }
+    .section h2 {
+      color: #66bb6a;
+      font-size: 20px;
+      border-left: 4px solid #a5d6a7;
+      padding-left: 10px;
+    }
+    ul {
+      padding-left: 20px;
+      color: #444;
+    }
+    .dark-mode {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+    }
+    .dark-mode h1,
+    .dark-mode .section h2 {
+      color: #90ee90;
+    }
+    .toggle-btn {
+      position: fixed;
+      right: 20px;
+      top: 20px;
+      background: #81c784;
+      color: #fff;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle-btn" onclick="toggleDark()">🌙 夜间</button>
+  <img src="data:image/jpeg;base64,{b64_avatar}" alt="头像" class="avatar">
+  <h1>Geolix | 破而后立 · 无限进步</h1>
+  <p>我是一名专注于金融投资、Web3 构建与内容分享的自由探索者。</p>
+
+  <div class="section">
+    <h2>📌 我的关键词</h2>
+    <ul>
+      <li>金融交易：黄金、加密、期货、美股</li>
+      <li>结构设计：稳定币、期权、互换</li>
+      <li>数字身份：ENS、NFT、Mirror、Cyber文明</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🧠 Twitter</h2>
+    <blockquote class="twitter-tweet">
+      <p lang="zh" dir="ltr">Web3 是自由意志的延伸。Geolix 从传统金融走来，正在搭建属于未来的数字身份。</p>
+      &mdash; Geolix.eth (@yourhandle) <a href="#">链接</a>
+    </blockquote>
+  </div>
+
+  <script>
+    function toggleDark() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
